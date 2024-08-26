@@ -1,0 +1,55 @@
+.characters {
+    .characters__column {
+        display: flex;
+        .card {
+            padding: 1rem;
+            width: 100%;
+            background: #00000011;
+            figure {
+                height: 180px;
+
+                img {
+                    max-height: 90%;
+                    max-width: 90%;
+                    width: auto;
+                }
+            }
+        
+            .card__body {
+                padding-bottom: 0;
+                .card__body__title {
+                    color: #999999;
+                }
+                a {
+                    color: #ED1B24;
+                    text-align: center;
+                    line-height: 1.2rem;
+                }
+            }
+
+            &:hover {
+                border-color: #ED1B24;
+
+                .card__body__title {
+                    color: #ED1B24;
+                }
+
+                img {
+                    max-height: 100%;
+                    width: auto;
+                    max-width: 100%;
+                    transition: width 1s;
+                }
+            }
+            
+        }
+        
+    }
+
+    p {
+        color: #FFFFFF;
+        padding: 0 !important;
+        margin-top: 20px !important;
+        font-size: 1.2rem;
+    }
+}

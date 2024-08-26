@@ -1,0 +1,36 @@
+.full-loading {
+    position: absolute;
+    background: #000000;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.loading-container {
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .loading-text {
+    font-size: 8rem;
+    font-family: 'Marvel', sans-serif;
+    color: #E62429;
+  }
+  
+  .loading-letter {
+    opacity: 0;
+    animation: fadeIn 3.5s ease-in-out infinite;
+  }
+  
+  .loading-letter:nth-child(1) { animation-delay: 0s; }
+  .loading-letter:nth-child(2) { animation-delay: 0.5s; }
+  .loading-letter:nth-child(3) { animation-delay: 1s; }
+  .loading-letter:nth-child(4) { animation-delay: 1.5s; }
+  .loading-letter:nth-child(5) { animation-delay: 2s; }
+  .loading-letter:nth-child(6) { animation-delay: 2.5s; }
+  
+  @keyframes fadeIn {
+    0%, 20%, 100% { opacity: 0; }
+    40% { opacity: 1; }
+  }

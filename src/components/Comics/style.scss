@@ -1,0 +1,22 @@
+.card {
+    padding: 1rem;
+    width: 100%;
+    background: #00000011;
+    figure {
+        height: 180px;
+
+        img {
+          max-height: 90%;
+          max-width: 90%;
+          width: auto;
+        }
+    }
+  
+    .card__body {
+        padding-bottom: 0;
+        .card__body__title {
+            color: #FFFFFF;
+        }
+    }
+    
+}
